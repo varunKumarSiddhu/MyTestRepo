@@ -13,6 +13,7 @@ public class MySpringBootStarter {
 
 	public static void main(String[] args) {
 		//used to boot strap app..means self sustaing the app by extrnl cmd
+		
 		SpringApplication.run(MySpringBootStarter.class, args);
 
 	}
