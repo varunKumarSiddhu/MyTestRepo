@@ -2,6 +2,7 @@ package com.springboot.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -13,8 +14,7 @@ public class MySpringBootStarter {
 
 	public static void main(String[] args) {
 		//used to boot strap app..means self sustaing the app by extrnl cmd
-		
-		SpringApplication.run(MySpringBootStarter.class, args);
+				SpringApplication.run(MySpringBootStarter.class, args);
 
 	}
 
